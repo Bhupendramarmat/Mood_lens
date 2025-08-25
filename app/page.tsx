@@ -40,19 +40,19 @@ export default function Home() {
           </div>
           <div className="overflow-hidden">
             <h1 className="font-bold text-6xl max-desktop:text-5xl max-laptop:text-4xl animate-moveUp transition-all ease-in-out duration-700">
-              Mental <span className="text-blue-600">Health</span>
+              Mental <span className="text-teal-600">Health</span>
             </h1>
           </div>
         </div>
         <div className="overflow-hidden">
           <h1 className="font-medium text-xl max-laptop:text-lg animate-moveDown transition-all ease-in-out duration-700 max-w-lg max-laptop:max-w-sm">
             <p>
-              An application to help psychiatrists to monitor your mental health and it also helps to acknowledge your mental well being
+              Your intelligent mental health companion—MoodLens empowers psychiatrists to monitor, support, enhance your well-being with personalized insights and proactive care.
             </p>
           </h1>
         </div>
         <Link href="/home">
-          <button className="p-3 bg-blue-500 rounded-md hover:text-blue-500 text-white hover:bg-white border-2 border-blue-500 transition-all ease-in-out duration-300 font-bold">
+          <button className="bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-lg px-6 py-3 shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2">
             Get Started
           </button>
         </Link>

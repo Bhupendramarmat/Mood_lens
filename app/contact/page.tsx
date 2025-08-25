@@ -105,7 +105,7 @@ export default function Contact() {
               width={25}
               height={25}
             />
-            <p>+91 6281768263</p>
+            <p>Mobile No.</p>
           </span>
           <span className="flex gap-5 align-center">
             <Image
@@ -115,7 +115,7 @@ export default function Contact() {
               width={25}
               height={25}
             />
-            <p>kanugurajesh6@gmail.com</p>
+            <p>Email</p>
           </span>
           <span className="flex gap-5 align-center">
             <Image
@@ -125,13 +125,13 @@ export default function Contact() {
               width={25}
               height={25}
             />
-            <Link href="https://www.instagram.com/kanugurajesh/">
-              <p>kanugurajesh3</p>
+            <Link href="">
+              <p>Name</p>
             </Link>
           </span>
         </div>
         <div className="flex gap-10">
-          <Link href="https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/">
+          <Link href="">
             <Image
               src="/linkedin-contact.png"
               className="hover:scale-110 transition ease-in-out"
@@ -140,7 +140,7 @@ export default function Contact() {
               height={35}
             />
           </Link>
-          <Link href="https://twitter.com/exploringengin1">
+          <Link href="">
             <Image
               src="/twitter.png"
               className="hover:scale-110 transition ease-in-out"
@@ -149,7 +149,7 @@ export default function Contact() {
               height={35}
             />
           </Link>
-          <Link href="https://www.instagram.com/kanugurajesh/">
+          <Link href="">
             <Image
               src="/instagram-contact.png"
               className="hover:scale-110 transition ease-in-out"
@@ -158,7 +158,7 @@ export default function Contact() {
               height={35}
             />
           </Link>
-          <Link href="https://github.com/kanugurajesh/">
+          <Link href="">
             <Image
               src="/github-contact.png"
               className="hover:scale-110 transition ease-in-out"

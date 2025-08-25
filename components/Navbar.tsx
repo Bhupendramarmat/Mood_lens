@@ -30,10 +30,10 @@ const Navbar = () => {
               onClick={() => setActiveTab(1)}
               className="flex items-center font-black text-2xl hover:scale-105 transition-all ease-in-out duration-300"
             >
-              <h1 className="text-blue-500 text-5xl max-laptop:text-5xl">
+              <h1 className="text-teal-500 text-5xl max-laptop:text-5xl">
                 M
               </h1>
-              <h1 className="text-4xl max-laptop:text-3xl">oodmap</h1>
+              <h1 className="text-4xl max-laptop:text-3xl">oodLens</h1>
             </Link>
             <div className="flex gap-10 font-bold relative">
               <Link
@@ -88,7 +88,7 @@ const Navbar = () => {
 
               <Link
                 href="/contact"
-                className="p-3 bg-blue-500 rounded-md hover:text-blue-500 text-white hover:bg-white border-2 border-blue-500 transition-all ease-in-out duration-300"
+                className="bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-lg px-6 py-3 shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2"
               >
                 Contact Us
               </Link>
